@@ -3,10 +3,13 @@
 // kaydırma işlemi sırasında gezinme çubuğu stillerini değiştirin
 // SON: ed8c6549bwf9
 
+
+
 window.addEventListener('scroll', () => { 
     const nav = document.querySelector('nav');
     document.querySelector('nav').classList.toggle ('window-scroll', window.scrollY > 100);
 });
+
 
 
 // show/hide FAQ answer

@@ -159,6 +159,11 @@ nav button {
     color: var(--color-primary);
 }
 
+/* !! Bu kod ile nav bar aşağı kaydığında hover turuncu olmaz. Siyah olur. */
+.window-scroll .nav__menu a:hover {
+    color: var(--color-black); /* Yeni renk */
+}
+
 
 /* ==================================== HEADER ==================================== */
 header{

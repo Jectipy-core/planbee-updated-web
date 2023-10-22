@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/contact.css">
 
+    <style> 
+        body{ background-image: url("./images/bg-texture.png") } 
+    </style>
+
 </head>
 <body>
     <nav>
@@ -34,6 +38,7 @@
         </div>
     </nav>
     <!--================================== END OF NAVBAR ==================================-->
+
 
     <section class="contact">
         <div class="container contact__container">
@@ -66,8 +71,8 @@
                 </ul>
             </aside>
 
-            <form class="contact__form">
-                <div class="form_name">
+            <form action="https://formspree.io/f/xleyzgjk" method="POST" class="contact__form">
+                <div class="form__name">
                     <input type="text" name="Adınız" placeholder="Adınız" required>
                     <input type="text" name="Soyadınız" placeholder="Soyadınız" required>
                 </div>
@@ -75,9 +80,6 @@
                 <textarea name="Message" rows="7" placeholder="Mesajınız" required></textarea>
                 <button type="submit" class="btn btn-primary">Gönder</button>
             </form>
-
-
-
         </div>
     </section>
 
